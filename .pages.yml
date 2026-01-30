@@ -1,0 +1,15 @@
+media: media
+content:
+  - name: pages
+    label: Pages
+    type: collection
+    path: public/content
+    view:
+      fields: [title]
+    fields:
+      - name: title
+        label: Title
+        type: string
+      - name: body
+        label: Body
+        type: rich-text

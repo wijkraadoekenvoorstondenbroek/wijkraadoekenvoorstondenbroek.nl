@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{title}} | Wijkraad Oeken Voorstonden Broek</title>
+  <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/alpinejs" defer></script>
+  <link rel="icon" href="favicon.png" sizes="32x32">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Open Sans', 'Helvetica Neue', 'sans-serif'],
+          },
+          colors: {
+            olive: {
+              50: '#f7f7f2',
+              100: '#e8e9dc',
+              200: '#d4d5c0',
+              300: '#b5b79a',
+              400: '#9a9c7a',
+              500: '#83846b',
+              600: '#6b6c54',
+              700: '#565745',
+              800: '#47483a',
+              900: '#3d3e33',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    main {
+      flex: 1;
+    }
+    .header-bg {
+      background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.2)), url('media/header-bg.jpg');
+      background-size: cover;
+      background-position: center bottom;
+    }
+  </style>
+</head>
+<body class="min-h-screen bg-olive-100/50 font-sans">
+  <header class="header-bg" x-data="{ isOpen: false, openSubmenu: null }">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <!-- Logo Bar -->
+      <div class="py-6 flex items-center justify-between">
+        <div class="flex items-center">
+          <a href="/" class="text-white">
+            <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold drop-shadow-lg">WIJKRAAD</h1>
+            <p class="text-sm sm:text-base lg:text-lg font-medium tracking-wider drop-shadow-md">OEKEN - VOORSTONDEN - BROEK</p>
+          </a>
+        </div>
+
+        <!-- Hamburger button -->
+        <button
+          @click.stop="isOpen = !isOpen"
+          class="lg:hidden p-2 rounded-md text-white hover:bg-white/20 focus:outline-none focus:ring-2 focus:ring-white/50"
+        >
+          <svg
+            class="w-8 h-8"
+            :class="{'hidden': isOpen, 'block': !isOpen }"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+          <svg
+            class="w-8 h-8 hidden"
+            :class="{'block': isOpen, 'hidden': !isOpen }"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+
+      <!-- Navigation -->
+      <div
+        class="pb-4"
+        :class="{'block': isOpen, 'hidden': !isOpen, 'lg:block': true}"
+        @click.away="isOpen = false"
+      >
+        <nav class="bg-olive-500/80 rounded-lg backdrop-blur-sm">
+          <ul class="flex flex-col lg:flex-row">
+            {{navigation}}
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <div class="bg-white shadow-sm">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <h1 class="text-2xl sm:text-3xl font-bold text-olive-600 tracking-tight">
+        {{title}}
+      </h1>
+    </div>
+  </div>
+
+  <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <article class="bg-white rounded-lg shadow-sm p-6 sm:p-8 lg:p-10">
+      <div class="prose lg:prose-lg max-w-none prose-headings:text-olive-600 prose-a:text-olive-600 hover:prose-a:text-olive-500 prose-strong:text-olive-700">
+        {{content}}
+      </div>
+    </article>
+  </main>
+
+  <footer class="bg-olive-600 text-white py-6 mt-auto">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row justify-between items-center">
+      <div class="text-sm">
+        &copy; <span id="year">2026</span> Wijkraad Oeken Voorstonden Broek
+      </div>
+      <div class="text-sm mt-4 sm:mt-0">
+        Contact: <a href="mailto:info@wijkraadoekenvoorstondenbroek.nl" class="underline hover:no-underline">info@wijkraadoekenvoorstondenbroek.nl</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
