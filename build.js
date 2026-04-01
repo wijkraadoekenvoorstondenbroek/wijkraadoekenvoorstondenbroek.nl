@@ -27,13 +27,14 @@ const navigationStructure = [
     title: 'Projecten',
     children: [
       { path: '/hartslagnu', file: 'hartslagnu.md', title: 'HartslagNu' },
+      { path: '/veiligheid-algemeen', file: 'veiligheid-algemeen.md', title: 'Veiligheid algemeen' },
       { path: '/verkeersveiligheid', file: 'verkeersveiligheid.md', title: 'Verkeersveiligheid' },
       { path: '/energietransitie', file: 'energietransitie.md', title: 'Energietransitie' },
       { path: '/waardevol-brummen', file: 'waardevol-brummen.md', title: 'WaardeVOL Brummen' },
       { path: '/zwerfvuil', file: 'zwerfvuil.md', title: 'Zwerfvuil actie' },
       { path: '/bijenlint', file: 'bijenlint.md', title: 'Bijenlint' },
       { path: '/oekens-ommetje', file: 'oekens-ommetje.md', title: 'Oekens ommetje' },
-      { path: '/verhalen-voorstonden', file: 'verhalen-voorstonden.md', title: 'Verhalen Voorstonden' },
+      { path: '/verhalen-voorstonden', file: 'verhalen-voorstonden.md', title: 'Verhalen van vroeger' },
     ]
   },
   { path: '/informatiebulletins', file: 'informatiebulletins.md', title: 'Informatiebulletins' },

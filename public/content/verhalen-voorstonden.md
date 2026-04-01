@@ -1,10 +1,10 @@
 ---
-title: Verhalen van vroeger over Voorstonden
+title: Verhalen van vroeger
 ---
 
 ## Verhalen van vroeger
 
-Voorstonden heeft een rijke geschiedenis. De Wijkraad verzamelt verhalen van oudere bewoners over het leven in Voorstonden vroeger.
+Voorstonden, Oeken en Broek hebben elk een rijke geschiedenis. De Wijkraad verzamelt verhalen van vroeger uit de hele wijk.
 
 ## Waarom verhalen verzamelen?
 
@@ -19,9 +19,9 @@ Heeft u ook verhalen over vroeger? Over het leven in Voorstonden, Oeken of Broek
 
 Neem contact op met de Wijkraad via [info@wijkraadoekenvoorstondenbroek.nl](mailto:info@wijkraadoekenvoorstondenbroek.nl).
 
-## Voorstonden
+## Voorstonden, Oeken en Broek
 
-Voorstonden is een buurtschap in de gemeente Brummen. Het gebied wordt gekenmerkt door:
+Onze wijk wordt gekenmerkt door:
 
 - Landgoederen en buitenplaatsen
 - Karakteristieke boerderijen

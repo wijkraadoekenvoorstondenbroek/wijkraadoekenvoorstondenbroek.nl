@@ -2,8 +2,6 @@
 title: Lid worden
 ---
 
-![Landschap](/media/landschap.jpg)
-
 Omdat de Wijkraad een vereniging is, heeft zij leden. Je bent lid van de Wijkraad als je woont in het gebied van de Wijkraad èn nadat je je hebt aangemeld als lid. Zo staat het in de statuten.
 
 We willen elke inwoner vragen of zij lid wil worden van de Wijkraad. Als je je e-mailadres aan het bestuur geeft ziet het bestuur deze daad als een aanvraag om lid te worden. Het bestuur zal dit dan bevestigen. Bewoners die geen e-mail hebben kunnen zich gewoon aanmelden als lid. Zij krijgen het informatiebulletin per post toegezonden, waardoor ze toch op de hoogte blijven.

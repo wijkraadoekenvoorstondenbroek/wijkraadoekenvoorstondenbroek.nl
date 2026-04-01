@@ -13,13 +13,12 @@ Het Oekens Ommetje is een prachtige wandelroute door het buurtschap Oeken en omg
 De wandeling is ongeveer 6-8 kilometer lang en voert door het coulissenlandschap van Oeken. Onderweg komt u langs:
 
 - Historische boerderijen
-- De kerk van Oeken
 - Mooie landschappen met weilanden en bossen
 - Karakteristieke laantjes en paden
 
 ## Routebeschrijving
 
-Een folder met de routebeschrijving is beschikbaar bij de Wijkraad. Neem contact op via [info@wijkraadoekenvoorstondenbroek.nl](mailto:info@wijkraadoekenvoorstondenbroek.nl) om een exemplaar te ontvangen.
+Bij de speeltuin op de kruising van de Vosstraat en Buurtweg staat een informatiebord. Daar zijn ook folders beschikbaar van deze route, algemene wandelroutes en het Klompenpad.
 
 ## Tips
 

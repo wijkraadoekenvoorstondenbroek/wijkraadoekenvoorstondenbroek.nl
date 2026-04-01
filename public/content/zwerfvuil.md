@@ -24,7 +24,7 @@ De Wijkraad organiseert de actie en zorgt voor:
 
 ## Volgende actie
 
-Houd de informatiebulletins in de gaten voor de aankondiging van de volgende zwerfvuil actie dag!
+De eerstvolgende zwerfvuilactie is op **25 april 2026**.
 
 ## Zelf actief?
 
