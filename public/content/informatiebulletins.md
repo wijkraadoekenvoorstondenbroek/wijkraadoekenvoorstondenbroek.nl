@@ -7,7 +7,7 @@ Het bestuur van de Wijkraad brengt regelmatig een informatiebulletin uit. Hierin
 
 *   [Informatiebulletin 36 - April 2026](/media/20260423-Informatiebulletin-36.pdf)
 
-*   [Informatiebulletin 35 - November 2026](/media/20260312-Informatiebulletin-35.pdf)
+*   [Informatiebulletin 35 - Maart 2026](/media/20260312-Informatiebulletin-35.pdf)
 
 ## 2025
 
