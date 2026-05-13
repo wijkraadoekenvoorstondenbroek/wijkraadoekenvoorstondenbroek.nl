@@ -4,6 +4,10 @@ import { fileURLToPath } from 'url';
 import { marked } from 'marked';
 import matter from 'gray-matter';
 
+function openPdfsInNewTab(html) {
+  return html.replace(/<a (href="[^"]*\.pdf(?:\?[^"]*)?(?:#[^"]*)?")/gi, '<a target="_blank" rel="noopener" $1');
+}
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const contentDir = path.join(__dirname, 'public/content');
@@ -132,7 +136,7 @@ function generateNavigation(currentPath) {
 function processMarkdownFile(filePath, currentPath) {
   const fileContent = fs.readFileSync(filePath, 'utf-8');
   const { meta, content } = parseFrontMatter(fileContent);
-  const htmlContent = marked(content);
+  const htmlContent = openPdfsInNewTab(marked(content));
 
   const title = meta.title || 'Wijkraad';
   const navigation = generateNavigation(currentPath);
